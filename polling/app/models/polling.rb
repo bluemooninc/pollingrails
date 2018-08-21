@@ -1,2 +1,0 @@
-class Polling < ApplicationRecord
-end
