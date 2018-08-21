@@ -1,78 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6910345b-7b25-4048-87a2-0a7ba4aafd2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sqlite_history" beforeDir="false" afterPath="$PROJECT_DIR$/.sqlite_history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/channels/application_cable/channel.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/channels/application_cable/connection.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/controllers/application_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/controllers/pollings_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/controllers/rankings_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/jobs/application_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/mailers/application_mailer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/models/application_record.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/models/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/models/polling.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/models/ranking.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/views/layouts/mailer.text.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/bin/bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/bin/rails" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/bin/rake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/bin/setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/bin/spring" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/bin/update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config.ru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/application.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/boot.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/cable.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/database.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/environment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/environments/development.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/environments/production.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/environments/test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/application_controller_renderer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/backtrace_silencers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/cors.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/inflections.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/mime_types.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/new_framework_defaults.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/wrap_parameters.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/locales/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/puma.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/routes.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/secrets.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/spring.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/db/migrate/20180821023743_create_pollings.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/db/migrate/20180821024054_create_rankings.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/db/seeds.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/lib/tasks/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/log/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/controllers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/controllers/pollings_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/controllers/rankings_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/fixtures/pollings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/fixtures/rankings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/models/polling_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/models/ranking_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/test_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/tmp/.keep" beforeDir="false" />
-    </list>
+    <list default="true" id="6910345b-7b25-4048-87a2-0a7ba4aafd2d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +85,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="150">
-                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -298,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534814604217</updated>
       <workItem from="1534814605290" duration="2786000" />
-      <workItem from="1534818654000" duration="3069000" />
+      <workItem from="1534818654000" duration="3321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5855000" />
+    <option name="totallyTimeSpent" value="6107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-275" width="1920" height="1080" extended-state="0" />
@@ -445,7 +374,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="150">
-            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
