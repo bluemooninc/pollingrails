@@ -1,0 +1,15 @@
+
+version: '2'
+
+services:
+    rails:
+        container_name: rails-container
+        build: .
+        ports:
+            - "3000:3000"
+        volumes:
+            - .:/root
+        tty: true
+
+volumes:
+    data: {}
