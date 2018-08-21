@@ -3,104 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="6910345b-7b25-4048-87a2-0a7ba4aafd2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/assets/config/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/assets/images/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/assets/javascripts/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/assets/javascripts/cable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/assets/javascripts/channels/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/assets/stylesheets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/channels/application_cable/channel.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/channels/application_cable/connection.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/controllers/application_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/helpers/application_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/jobs/application_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/mailers/application_mailer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/models/application_record.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/models/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/views/layouts/application.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/app/views/layouts/mailer.text.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/bin/bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/bin/rails" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/bin/rake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/bin/setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/bin/spring" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/bin/update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config.ru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/application.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/boot.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/cable.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/database.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/environment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/environments/development.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/environments/production.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/environments/test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/application_controller_renderer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/assets.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/backtrace_silencers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/cookies_serializer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/inflections.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/mime_types.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/new_framework_defaults.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/session_store.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/initializers/wrap_parameters.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/locales/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/puma.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/routes.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/secrets.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/config/spring.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/db/seeds.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/lib/assets/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/lib/tasks/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/log/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/public/422.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/public/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/public/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/public/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/controllers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/helpers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/test/test_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/tmp/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/vendor/assets/javascripts/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/vendor/assets/stylesheets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sqlite_history" beforeDir="false" afterPath="$PROJECT_DIR$/.sqlite_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/Gemfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/Gemfile.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/assets/config/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/assets/images/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/assets/javascripts/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/assets/javascripts/cable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/assets/javascripts/channels/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/assets/stylesheets/application.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/channels/application_cable/channel.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/channels/application_cable/connection.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/controllers/application_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/app/controllers/pollings_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/app/controllers/rankings_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/jobs/application_job.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/mailers/application_mailer.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/models/application_record.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/models/candidate.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/models/concerns/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/models/polling.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/app/models/ranking.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/views/layouts/mailer.html.erb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/app/views/layouts/mailer.text.erb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/bin/bundle" beforeDir="false" />
@@ -119,48 +40,38 @@
       <change beforePath="$PROJECT_DIR$/polling/config/environments/production.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/environments/test.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/initializers/application_controller_renderer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/assets.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/initializers/backtrace_silencers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/config/initializers/cors.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/initializers/inflections.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/initializers/mime_types.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/initializers/new_framework_defaults.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/config/initializers/session_store.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/initializers/wrap_parameters.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/locales/en.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/puma.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/routes.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/secrets.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/config/spring.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/db/migrate/20180821013443_create_pollings.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/db/migrate/20180821014954_create_candidates.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/db/migrate/20180821023743_create_pollings.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/db/migrate/20180821024054_create_rankings.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/db/seeds.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/lib/assets/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/lib/tasks/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/log/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/public/422.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/public/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/public/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/public/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/test/controllers/pollings_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/test/controllers/rankings_controller_test.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/fixtures/candidates.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/fixtures/files/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/fixtures/pollings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/test/fixtures/rankings.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/integration/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/mailers/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/test/models/candidate_test.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/models/polling_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/test/models/ranking_test.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/test/test_helper.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/polling/tmp/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/vendor/assets/javascripts/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/vendor/assets/stylesheets/.keep" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,39 +98,42 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="md" value="2" />
-          <entry key="rb" value="2" />
-          <entry key="yml" value="2" />
+          <entry key="md" value="3" />
+          <entry key="rb" value="15" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Ruby" value="2" />
-          <entry key="YAML" value="2" />
+          <entry key="Ruby" value="15" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="2" />
           <entry key="gitignore" value="51" />
-          <entry key="rb" value="164" />
+          <entry key="md" value="43" />
+          <entry key="rb" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="2" />
+          <entry key="Markdown" value="43" />
           <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Ruby" value="164" />
+          <entry key="Ruby" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -227,36 +141,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -265,13 +155,41 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="150">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poll/db/migrate/20180821033203_create_pollings.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poll/db/migrate/20180821033215_create_rankings.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Timestamps</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>timestamps</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -284,6 +202,13 @@
         <option value="$PROJECT_DIR$/app/polling/db/migrate/20180821014954_create_candidates.rb" />
         <option value="$PROJECT_DIR$/app/polling/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/polling/db/migrate/20180821023743_create_pollings.rb" />
+        <option value="$PROJECT_DIR$/polling/db/migrate/20180821024054_create_rankings.rb" />
+        <option value="$PROJECT_DIR$/polling/db/migrate/20180821030538_create_pollings.rb" />
+        <option value="$PROJECT_DIR$/polling/db/migrate/20180821030601_create_rankings.rb" />
+        <option value="$PROJECT_DIR$/poll/db/migrate/20180821033203_create_pollings.rb" />
+        <option value="$PROJECT_DIR$/poll/db/migrate/20180821033215_create_rankings.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -315,7 +240,20 @@
             <path>
               <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
               <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="poll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+              <item name="poll" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+              <item name="poll" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,35 +297,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534814604217</updated>
-      <workItem from="1534814605290" duration="2553000" />
+      <workItem from="1534814605290" duration="2786000" />
+      <workItem from="1534818654000" duration="3069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2553000" />
+    <option name="totallyTimeSpent" value="5855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-275" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18849841" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32903865" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24494143" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,37 +337,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polling/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821013443_create_pollings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821014954_create_candidates.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polling/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821013443_create_pollings.rb" />
+    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821014954_create_candidates.rb" />
+    <entry file="file://$PROJECT_DIR$/polling/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/app/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -438,18 +355,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/test/models/polling_test.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/test/models/ranking_test.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821024054_create_rankings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821023743_create_pollings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821030601_create_rankings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/db/migrate/20180821030538_create_pollings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/app/models/polling.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/app/models/ranking.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/test/fixtures/pollings.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/test/fixtures/rankings.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/app/controllers/rankings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polling/app/models/application_record.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/db/migrate/20180821033203_create_pollings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/db/migrate/20180821033215_create_rankings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="150">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
