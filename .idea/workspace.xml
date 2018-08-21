@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6910345b-7b25-4048-87a2-0a7ba4aafd2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/assets/javascripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/assets/javascripts/cable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/assets/javascripts/channels/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/bin/bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/bin/spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/bin/update" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/new_framework_defaults.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/session_store.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/secrets.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/lib/tasks/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/fixtures/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/vendor/assets/javascripts/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testsqlite/vendor/assets/stylesheets/.keep" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2129627277">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="rb" value="2" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="Ruby" value="2" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="2" />
+          <entry key="rb" value="164" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dockerfile" value="2" />
+          <entry key="Ruby" value="164" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.actions.runAnything" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/polling/db/migrate/20180821013443_create_pollings.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/polling/db/migrate/20180821014954_create_candidates.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/polling/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/app/polling/db/migrate/20180821013443_create_pollings.rb" />
+        <option value="$PROJECT_DIR$/app/polling/db/migrate/20180821014954_create_candidates.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="y" value="-275" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="polling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="polling" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="polling" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pollingrails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollingrails" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="polling" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6910345b-7b25-4048-87a2-0a7ba4aafd2d" name="Default Changelist" comment="" />
+      <created>1534814604217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534814604217</updated>
+      <workItem from="1534814605290" duration="1845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1845000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="-275" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/polling/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/polling/db/migrate/20180821013443_create_pollings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/polling/db/migrate/20180821014954_create_candidates.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
