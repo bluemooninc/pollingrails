@@ -4,29 +4,36 @@ class List extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            _json: [],
+            name: []
         };
     }
     // 書き込み一覧をサーバーから取得
     componentDidMount() {
-        var arr = [];
+        var nameList = [];
+        var urlList = [];
         fetch('/api/ranking/')
             .then(function(response) {
                 return response.json()
             })
             .then(function(jsonData) {
                 for(var i in jsonData){
-                    arr.push(jsonData[i].name);
-                    console.log(jsonData[i].name)
+                    nameList.push(jsonData[i].name);
+                    urlList.push(jsonData[i].url);
                 }
-                this.setState({_json : arr});
+                this.setState({name : jsonData});
             }.bind(this))
             .catch(function(error) {
                 console.log('error', error)
             })
     }
     render() {
-        return(this.state._json);
+        return(
+            <ol>
+            {this.state.name.map(function(index) {
+                return <li>{index.name}:{index.url}</li>;
+            })}
+            </ol>
+        );
     }
 }
 
