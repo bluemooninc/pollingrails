@@ -2,9 +2,17 @@
 version: '2'
 
 services:
+    apache:
+        container_name: apache-container
+        build: ./apache
+        ports:
+        - "80:80"
+        volumes:
+        - .:/root
+
     rails:
         container_name: rails-container
-        build: .
+        build: ./rails
         ports:
             - "3000:3000"
         volumes:
