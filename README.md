@@ -52,4 +52,24 @@ http://localhost:3000/api/ranking/
 
 ## 投票
 
-http://localhost:3000/api/like/?candidate_id=1&session_id=xyz
+http://localhost:3000/api/like/?candidate_id=1
+
+## 使い方
+
+cookie値にcountとSSIDが保存され、cookie削除しない限り再投票で更新可能です。
+Chrome developper tools application cookie で確認、削除できます。
+
+# react
+
+共有フォルダ以外でプロジェクトフォルダを作成してビルドする
+
+```coffeescript
+docker exec -it nodejs-container bash
+cd /tmp
+create-react-app hello-world
+mv ./hello-world /root/react/
+cd ~/react/hello-world
+npm start
+---
+http://localhost:8080
+```

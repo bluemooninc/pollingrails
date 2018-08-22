@@ -1,0 +1,230 @@
+{
+  "{\"filename\":\"/root/nodejs/work/development.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/root/nodejs/work\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "html-webpack-plugin",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "HtmlWebpackPlugin"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/root/nodejs/work/development.js",
+      "filenameRelative": "/root/nodejs/work/development.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "development.js",
+      "sourceFileName": "development.js",
+      "sourceRoot": "/root/nodejs/work",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/root/nodejs/work",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "development"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _htmlWebpackPlugin = require('html-webpack-plugin');\n\nvar _htmlWebpackPlugin2 = _interopRequireDefault(_htmlWebpackPlugin);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar src = _path2.default.resolve(__dirname, 'src');\nvar dist = _path2.default.resolve(__dirname, 'dist');\n\nexports.default = {\n  mode: 'development',\n  entry: src + '/index.jsx',\n\n  output: {\n    path: dist,\n    filename: 'bundle.js'\n  },\n\n  module: {\n    rules: [{\n      test: /\\.jsx$/,\n      exclude: /node_modules/,\n      loader: 'babel-loader'\n    }]\n  },\n\n  resolve: {\n    extensions: ['.js', '.jsx']\n  },\n\n  plugins: [\n  //以下追記\n  new _htmlWebpackPlugin2.default({\n    template: src + '/index.html',\n    filename: 'index.html'\n  })]\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRldmVsb3BtZW50LmpzIl0sIm5hbWVzIjpbInNyYyIsInBhdGgiLCJyZXNvbHZlIiwiX19kaXJuYW1lIiwiZGlzdCIsIm1vZGUiLCJlbnRyeSIsIm91dHB1dCIsImZpbGVuYW1lIiwibW9kdWxlIiwicnVsZXMiLCJ0ZXN0IiwiZXhjbHVkZSIsImxvYWRlciIsImV4dGVuc2lvbnMiLCJwbHVnaW5zIiwiSHRtbFdlYnBhY2tQbHVnaW4iLCJ0ZW1wbGF0ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBQ0EsSUFBTUEsTUFBT0MsZUFBS0MsT0FBTCxDQUFhQyxTQUFiLEVBQXdCLEtBQXhCLENBQWI7QUFDQSxJQUFNQyxPQUFPSCxlQUFLQyxPQUFMLENBQWFDLFNBQWIsRUFBd0IsTUFBeEIsQ0FBYjs7a0JBRWU7QUFDYkUsUUFBTSxhQURPO0FBRWJDLFNBQU9OLE1BQU0sWUFGQTs7QUFJYk8sVUFBUTtBQUNOTixVQUFNRyxJQURBO0FBRU5JLGNBQVU7QUFGSixHQUpLOztBQVNiQyxVQUFRO0FBQ05DLFdBQU8sQ0FDTDtBQUNFQyxZQUFNLFFBRFI7QUFFRUMsZUFBUyxjQUZYO0FBR0VDLGNBQVE7QUFIVixLQURLO0FBREQsR0FUSzs7QUFtQmJYLFdBQVM7QUFDUFksZ0JBQVksQ0FBQyxLQUFELEVBQVEsTUFBUjtBQURMLEdBbkJJOztBQXVCYkMsV0FBUztBQUNMO0FBQ0EsTUFBSUMsMkJBQUosQ0FBc0I7QUFDbEJDLGNBQVVqQixNQUFNLGFBREU7QUFFbEJRLGNBQVU7QUFGUSxHQUF0QixDQUZLO0FBdkJJLEMiLCJmaWxlIjoiZGV2ZWxvcG1lbnQuanMiLCJzb3VyY2VSb290IjoiL3Jvb3Qvbm9kZWpzL3dvcmsiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgcGF0aCBmcm9tICdwYXRoJ1xuaW1wb3J0IEh0bWxXZWJwYWNrUGx1Z2luIGZyb20gJ2h0bWwtd2VicGFjay1wbHVnaW4nXG5jb25zdCBzcmMgID0gcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJ3NyYycpXG5jb25zdCBkaXN0ID0gcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJ2Rpc3QnKVxuXG5leHBvcnQgZGVmYXVsdCB7XG4gIG1vZGU6ICdkZXZlbG9wbWVudCcsXG4gIGVudHJ5OiBzcmMgKyAnL2luZGV4LmpzeCcsXG5cbiAgb3V0cHV0OiB7XG4gICAgcGF0aDogZGlzdCxcbiAgICBmaWxlbmFtZTogJ2J1bmRsZS5qcydcbiAgfSxcblxuICBtb2R1bGU6IHtcbiAgICBydWxlczogW1xuICAgICAge1xuICAgICAgICB0ZXN0OiAvXFwuanN4JC8sXG4gICAgICAgIGV4Y2x1ZGU6IC9ub2RlX21vZHVsZXMvLFxuICAgICAgICBsb2FkZXI6ICdiYWJlbC1sb2FkZXInXG4gICAgICB9XG4gICAgXVxuICB9LFxuXG4gIHJlc29sdmU6IHtcbiAgICBleHRlbnNpb25zOiBbJy5qcycsICcuanN4J11cbiAgfSxcblxuICBwbHVnaW5zOiBbXG4gICAgICAvL+S7peS4i+i/veiomFxuICAgICAgbmV3IEh0bWxXZWJwYWNrUGx1Z2luKHtcbiAgICAgICAgICB0ZW1wbGF0ZTogc3JjICsgJy9pbmRleC5odG1sJyxcbiAgICAgICAgICBmaWxlbmFtZTogJ2luZGV4Lmh0bWwnXG4gICAgICB9KVxuICBdXG59XG5cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "development.js"
+      ],
+      "names": [
+        "src",
+        "path",
+        "resolve",
+        "__dirname",
+        "dist",
+        "mode",
+        "entry",
+        "output",
+        "filename",
+        "module",
+        "rules",
+        "test",
+        "exclude",
+        "loader",
+        "extensions",
+        "plugins",
+        "HtmlWebpackPlugin",
+        "template"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;;;AACA,IAAMA,MAAOC,eAAKC,OAAL,CAAaC,SAAb,EAAwB,KAAxB,CAAb;AACA,IAAMC,OAAOH,eAAKC,OAAL,CAAaC,SAAb,EAAwB,MAAxB,CAAb;;kBAEe;AACbE,QAAM,aADO;AAEbC,SAAON,MAAM,YAFA;;AAIbO,UAAQ;AACNN,UAAMG,IADA;AAENI,cAAU;AAFJ,GAJK;;AASbC,UAAQ;AACNC,WAAO,CACL;AACEC,YAAM,QADR;AAEEC,eAAS,cAFX;AAGEC,cAAQ;AAHV,KADK;AADD,GATK;;AAmBbX,WAAS;AACPY,gBAAY,CAAC,KAAD,EAAQ,MAAR;AADL,GAnBI;;AAuBbC,WAAS;AACL;AACA,MAAIC,2BAAJ,CAAsB;AAClBC,cAAUjB,MAAM,aADE;AAElBQ,cAAU;AAFQ,GAAtB,CAFK;AAvBI,C",
+      "file": "development.js",
+      "sourceRoot": "/root/nodejs/work",
+      "sourcesContent": [
+        "import path from 'path'\nimport HtmlWebpackPlugin from 'html-webpack-plugin'\nconst src  = path.resolve(__dirname, 'src')\nconst dist = path.resolve(__dirname, 'dist')\n\nexport default {\n  mode: 'development',\n  entry: src + '/index.jsx',\n\n  output: {\n    path: dist,\n    filename: 'bundle.js'\n  },\n\n  module: {\n    rules: [\n      {\n        test: /\\.jsx$/,\n        exclude: /node_modules/,\n        loader: 'babel-loader'\n      }\n    ]\n  },\n\n  resolve: {\n    extensions: ['.js', '.jsx']\n  },\n\n  plugins: [\n      //以下追記\n      new HtmlWebpackPlugin({\n          template: src + '/index.html',\n          filename: 'index.html'\n      })\n  ]\n}\n\n"
+      ]
+    },
+    "mtime": 1534921388000
+  }
+}

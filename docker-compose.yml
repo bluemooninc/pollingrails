@@ -10,6 +10,16 @@ services:
         volumes:
         - .:/root
 
+    react:
+        container_name: react-container
+        build: ./react
+        ports:
+        - "8080:3000"
+        volumes:
+        - .:/root
+        tty: true
+
+
     rails:
         container_name: rails-container
         build: ./rails

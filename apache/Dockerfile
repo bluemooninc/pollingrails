@@ -153,5 +153,7 @@ RUN set -eux; \
 ADD run-kicker.sh /run-kicker.sh
 RUN chmod -v +x /run-kicker.sh
 
+EXPOSE  8080
 EXPOSE 80
+
 CMD ["/run-kicker.sh"]
