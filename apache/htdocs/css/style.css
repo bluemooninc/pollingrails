@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+div.fakeloader {text-align:center;}
+div.fakeloader img{max-width:80%;}
+
+/*+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
++-----+// ContentClear
+--+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+*/
+
+
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+* html .clearfix{height:1%;}
+/*\*//*/
+.clearfix{
+	display: inline-table;
+}
+/**/
+
+/*+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
++-----+// Reset
+--+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+*/
+
+html,body{height:100%;}
+
+body,div,pre,p,blockquote,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,pre,
+form,fieldset,input,textarea,select,option,table,th,td,tr,embed,object{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section,button{	box-sizing:border-box;
+display: block;}
+
+li{list-style-type:none;}
+fieldset,table,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
++-----+// illu
+--+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+*/
+
+section.illu_main{width:100%;height:100%;padding:0;margin:0;}
+
+.aspslide{position: relative; width: 33.3%;height: 33.3%;overflow:hidden;padding:0!important;border: 1px solid #f5f5f5;text-align:center;}
+
+.r_end{width:33.4%;}
+.b_end{height:33.4%;}
+
+.asnakami{position: absolute;top: 0;left: 0;width: 100%;height: 86%;padding:0!important;overflow:hidden;}
+div.p02{position: absolute;top: 0;left: 0;}  
+div.p02{position: absolute;top: 0;left: 33.3%;}  
+div.p03{position: absolute;top: 0;left: 66.6%;}  
+div.p04{position: absolute;top: 33.3%;;left: 0;}  
+div.p05{position: absolute;top: 33.3%;;left: 33.3%;}  
+div.p06{position: absolute;top: 33.3%;;left: 66.6%;}  
+div.p07{position: absolute;top: 66.6%;;left: 0;}  
+div.p08{position: absolute;top: 66.6%;;left: 33.3%;}  
+div.p09{position: absolute;top: 66.6%;;left: 66.6%;}  
+
+.btn_vote{background:#fa8c78;padding:10px 20px;margin:35px auto 15px;color:#fff;display:block;text-decoration:none;border-radius:5px;}
+
+div.oukan{margin-top:-100px;}
+
+.aspslide div.i_name{height:14%;color:#646464;position:absolute;z-index:2;bottom:0;right:0;left:0;font-weight:bold;font-size:10px;text-align:center;background:#d9d9d9;opacity:0.9;padding:4px 0;display:table;width:100%;} 
+.aspslide div.i_name p{display: table-cell; vertical-align: middle;line-height:1;text-align:center;}
+
+
+.asnakami img{position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;}
+.img_height img{position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;}
+
+.asnakami1{
+      -moz-animation: fadeinout 8s 0s infinite;
+      -webkit-animation: fadeinout 8s 0s infinite;
+      -o-animation: fadeinout 8s 0s infinite;
+      animation: fadeinout 8s 0s infinite;
+}
+
+.asnakami2{
+      -moz-animation: fadeinout 8s 4s infinite;
+      -webkit-animation: fadeinout 8s 4s infinite;
+      -o-animation: fadeinout 8s 4s infinite;
+      animation: fadeinout 8s 4s infinite;
+	  opacity:0;
+}
+
+@-moz-keyframes fadeinout {
+0% {opacity: 0;}
+20%{opacity:1;}
+50%{opacity:1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes fadeinout {
+0% {opacity: 0;}
+20%{opacity:1;}
+50%{opacity:1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-o-keyframes fadeinout {
+0% {opacity: 0;}
+20%{opacity:1;}
+50%{opacity:1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes fadeinout {
+0% {opacity: 0;}
+20%{opacity:1;}
+50%{opacity:1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+
+/*+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
++-----+// ranking
+--+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+*/
+
+
+
+section.vote{width:100%;padding:0;background:url("../images/ranking/bg.png") no-repeat center 15px #f5ebdc;background-size:100% auto;min-height:100%;}
+
+section.vote div.ranking_head{width:100%;height:20px;background:url(../images/ranking/bg_head.png) center repeat-x;background-size: auto 100%;}
+
+div.ranking_wrap{padding:20px 10px;}
+
+section.vote h1{text-align:center;font-family: "Rounded Mplus 1c";font-size:18px;margin:0px auto 20px;}
+section.vote h1 img{max-width:180px;width:100%;margin-top:30px;}
+
+section.vote dl{width:90%;border-radius:5px;background:#fff;padding:8px 10px;margin:15px auto;position:relative;}
+section.vote dl.n01{border:2px solid #eac100;}
+section.vote dl.n02{border:2px solid #999999;}
+section.vote dl.n03{border:2px solid #bd771a;margin-bottom:20px;}
+
+section.vote dl img.icon_r{width:40px;vertical-align:bottom;margin-right:5px;}
+section.vote dt{float:left;width:80%;padding:10px 0;font-family: "Rounded Mplus 1c";font-size:16px;color:#423109;font-weight:bold;}
+section.vote dt span{font-size:12px;font-weight:normal;}
+
+section.vote dd{float:left;width:20%;padding: 20px 0 0 0;}
+section.vote dd img{width:100%;}
+
+
+section.vote dd .vote_img{position:absolute;width:45px;height:45px;right:0;top:0;overflow:hidden;margin: 10px;}
+section.vote dd .vote_img img{width:100%;height:100%;vertical-align:text-top;}
+
+
+div.under04{display:none;}
+
+div.under04 dl{margin:0 auto;border-bottom:1px dotted #b3b3b3;border-radius:0;}
+div.under04 dl dt{font-size:16px;}
+
+div.illu{width:90%;background:#b69817;padding:10px 20px;text-align:center;margin:15px auto 0;border-radius:5px;}
+div.illu a{color:#fff;text-decoration:none;font-family: "Rounded Mplus 1c";}
+
+div.ranking_more{background:#fa8c78;width:90%;padding:10px 20px;text-align:center;color:#fff;margin:15px auto 0;;font-family: "Rounded Mplus 1c";border-radius:5px;}
+
+
+div.appstore{width:50%;float:left;padding:10px 0;}
+div.appstore img{width:100%;}
+div.playstore{width:50%;float:left;padding:10px 0;}
+div.playstore img{width:100%;}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<!-- Google Tag Manager -->
+	<script>
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-K7P66F');
+	</script>
+	<!-- End Google Tag Manager -->
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex,nofollow" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>CREATORS 総選挙</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/fakeLoader.css">
+	<link rel="stylesheet" href="css/iziModal.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/fakeLoader.min.js"></script>
+	<script type="text/javascript" src="js/iziModal.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".fakeloader").fakeLoader({
+				timeToHide:1200,
+				bgColor:"#2ecc71",
+				spinner:"spinner1",
+				bgColor:"#ffffff", //RGBもしくはRGBAの16進数の値
+				imagePath:"./images/loading.png" //オリジナル画像を使用する場合の画像へのパス
+			});
+		});
+	</script>
+	<script type="text/javascript">
+	$(function(){
+		$(".iziModal").iziModal({
+			width:"85%",
+			padding:"15",
+			headerColor: "#fa8c78",
+			background: "#fffff",
+			transitionIn: "bounceInDown",
+			transitionOut: "bounceOutDown",
+			autoOpen:2000
+		});
+	})
+	</script>
+	<script type="text/javascript">
+	$(function(){
+        $('.choose-btn').on('click', function(){
+            var illu_id =  $(this).attr("id");
+            var illu_name = '';
+            switch(illu_id){
+                case "illu01" : illu_name = "KINUEさんに投票しますか？"; $( "#ajax-vote" ).data( "candidate_id", 1 ); break;
+                case "illu02" : illu_name = "くにとも ゆかりさんに投票しますか？"; $( "#ajax-vote" ).data( "candidate_id", 2 );  break;
+                default : alert("ERROR"); break;
+            }
+            $("#vote-title").text(illu_name);
+        });
+        $(".iziModal2").iziModal({
+            width:"85%",
+            padding:"15",
+            headerColor: "#fa8c78",
+            background: "#fffff",
+            transitionIn: "bounceInDown",
+            transitionOut: "bounceOutDown"
+        });
+        $('.btn_vote').on('click', function(){
+            $.ajax({
+                url:'http://localhost:3000/api/like/',
+                type:'GET',
+                data:{
+                    'candidate_id': $("#ajax-vote").data("candidate_id")
+                }
+            })
+            // Ajaxリクエストが成功した時発動
+                .done( (data) => {
+                    console.log(data);
+                    window.location.href = $(this).val();
+                })
+                // Ajaxリクエストが失敗した時発動
+                .fail( (data) => {
+                    console.log(data);
+                    return false;
+                })
+        });
+	})
+
+	</script>
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7P66F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		
+        <div class="fakeloader"></div>
+		
+<div class="iziModal" data-izimodal-title="CREATORS 総選挙">
+	<p>あなたの好みのスマコネの<br />イラストレーターに投票しよう！</p>
+<!-- / .iziModal --></div>
+
+<div class="iziModal2" data-izimodal-title="CREATORS 総選挙">
+	<p><div id="vote-title">KINUEさんに投票しますか？</div><br />
+	<a href="vote.html" class="btn_vote" id="ajax-vote">投票する</a></p>
+<!-- / .iziModal --></div>
+
+<section class="illu_main">
+<div class="aspslide p01">
+<a href="#" data-izimodal-open=".iziModal2" class="choose-btn" id="illu01">
+<div class="asnakami1 asnakami"><img src="./images/illu/illu01_01.jpg"></div>
+<div class="asnakami2 asnakami"><img src="./images/illu/illu01_02.jpg"></div>
+<div class="i_name"><p>KINUEさん</p></div>
+</a>
+</div><!--aspslide-->
+
+
+
+<div class="aspslide p02">
+<a href="#" data-izimodal-open=".iziModal2" class="choose-btn" id="illu02">
+<div class="asnakami1 asnakami img_height"><img src="./images/illu/illu02_01.jpg"></div>
+<div class="asnakami2 asnakami img_height"><img src="./images/illu/illu02_02.jpg"></div>
+<div class="i_name"><p>くにとも ゆかりさん</p></div>
+</a>
+</div><!--aspslide-->
+
+<div class="aspslide r_end p03">
+	<a href="#" data-izimodal-open=".iziModal2">
+<div class="asnakami1 asnakami img_height"><img src="./images/illu/illu03_01.jpg"></div>
+<div class="asnakami2 asnakami img_height"><img src="./images/illu/illu03_02.jpg"></div>
+<div class="i_name"><p>Qoonanaさん</p></div>
+</a>
+</div><!--aspslide-->
+
+<div class="aspslide p04">
+	<a href="#" data-izimodal-open=".iziModal2">
+<div class="asnakami1 asnakami"><img src="./images/illu/illu04_01.jpg"></div>
+<div class="asnakami2 asnakami"><img src="./images/illu/illu04_02.jpg"></div>
+<div class="i_name"><p>佐々木 香菜子さん</p></div>
+</a>
+</div><!--aspslide-->
+
+<div class="aspslide p05">
+	<a href="#" data-izimodal-open=".iziModal2">
+<div class="asnakami1 asnakami img_height"><img src="./images/illu/illu05_01.jpg"></div>
+<div class="asnakami2 asnakami"><img src="./images/illu/illu05_02.jpg"></div>
+<div class="i_name"><p>鈴木 衣津子さん</p></div>
+</a>
+</div><!--aspslide-->
+
+<div class="aspslide r_end p06">
+	<a href="#" data-izimodal-open=".iziModal2">
+<div class="asnakami1 asnakami img_height"><img src="./images/illu/illu06_01.jpg"></div>
+<div class="asnakami2 asnakami img_height"><img src="./images/illu/illu06_02.jpg"></div>
+<div class="i_name"><p>長谷川 ひとみさん</p></div>
+</a>
+</div><!--aspslide-->
+
+<div class="aspslide b_end p07">
+	<a href="#" data-izimodal-open=".iziModal2">
+<div class="asnakami1 asnakami"><img src="./images/illu/illu07_01.jpg"></div>
+<div class="asnakami2 asnakami"><img src="./images/illu/illu07_02.jpg"></div>
+<div class="i_name"><p>原田 マサミさん</p></div>
+</a>
+</div><!--aspslide-->
+
+<div class="aspslide b_end p08">
+	<a href="#" data-izimodal-open=".iziModal2">
+<div class="asnakami1 asnakami img_height"><img src="./images/illu/illu08_01.jpg"></div>
+<div class="asnakami2 asnakami"><img src="./images/illu/illu08_02.jpg"></div>
+<div class="i_name"><p>深川 直美さん</p></div>
+</a>
+</div><!--aspslide-->
+
+<div class="aspslide b_end r_end p09">
+	<a href="#" data-izimodal-open=".iziModal2">
+<div class="asnakami1 asnakami"><img src="./images/illu/illu09_01.jpg"></div>
+<div class="asnakami2 asnakami "><img src="./images/illu/illu09_02.jpg"></div>
+<div class="i_name"><p>横山 富美さん</p></div>
+</a>
+</div><!--aspslide-->
+</section>
+
+    </body>
+</html>
+
+
+

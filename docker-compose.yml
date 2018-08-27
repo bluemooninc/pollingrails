@@ -8,7 +8,10 @@ services:
         ports:
         - "80:80"
         volumes:
-        - .:/root
+        - ./apache/htdocs:/var/www/html
+        working_dir: /var/www/html
+        privileged: true
+        command: /sbin/init
 
     react:
         container_name: react-container

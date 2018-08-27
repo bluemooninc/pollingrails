@@ -46,6 +46,14 @@ rake db:seed
 
 # 動作確認
 
+## サーバー起動
+
+```coffeescriptliterate
+cd /root/poll
+bundle install
+rails s
+```
+
 ## ランキング表示
 
 http://localhost:3000/api/ranking/
@@ -58,6 +66,11 @@ http://localhost:3000/api/like/?candidate_id=1
 
 cookie値にcountとSSIDが保存され、cookie削除しない限り再投票で更新可能です。
 Chrome developper tools application cookie で確認、削除できます。
+
+# jquery
+
+docker exec -t apache-container bash
+curl http://rails-container:3000/api/like/?candidate_id=1
 
 # react
 
